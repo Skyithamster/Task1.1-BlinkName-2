@@ -25,26 +25,26 @@ void dash() {
   delay(betweenElements);
 }
 
-void letterB() {
-  dash(); dot(); dot(); dot();
+void letterT() {
+  dash();
   delay(betweenLetters);
 }
 
-void letterE() {
-  dot();
+void letterI() {
+  dot(); dot();
   delay(betweenLetters);
 }
 
-void letterN() {
-  dash(); dot();
+void letterM() {
+  dash(); dash();
   delay(betweenLetters);
 }
 
 
 void loop() {
-  letterB();
-  letterE();
-  letterN();
+  letterT();
+  letterI();
+  letterM();
   delay(betweenWords); // Wait a bit before repeating
 }
 
